@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12450D13210EFCCB0059FF7D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12450D12210EFCCB0059FF7D /* main.cpp */; };
+		12450D1E211420800059FF7D /* tree2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12450D1D211420800059FF7D /* tree2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,11 @@
 /* Begin PBXFileReference section */
 		12450D0F210EFCCB0059FF7D /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		12450D12210EFCCB0059FF7D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		12450D19210EFD5F0059FF7D /* 350.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 350.h; sourceTree = "<group>"; };
+		12450D1A2112946F0059FF7D /* sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
+		12450D1B2112E79E0059FF7D /* tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		12450D1C21141EAE0059FF7D /* tree2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tree2.h; sourceTree = "<group>"; };
+		12450D1D211420800059FF7D /* tree2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tree2.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				12450D12210EFCCB0059FF7D /* main.cpp */,
+				12450D1A2112946F0059FF7D /* sort.h */,
+				12450D19210EFD5F0059FF7D /* 350.h */,
+				12450D1B2112E79E0059FF7D /* tree.h */,
+				12450D1C21141EAE0059FF7D /* tree2.h */,
+				12450D1D211420800059FF7D /* tree2.cpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -119,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12450D1E211420800059FF7D /* tree2.cpp in Sources */,
 				12450D13210EFCCB0059FF7D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
